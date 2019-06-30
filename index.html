@@ -14,8 +14,10 @@
 			background-color: peru;
 			color: #fff;
 			display: flex;
-			padding: 20px 30px;
+			align-items: center;
+			padding: 0px 30px;
 			box-shadow: 1px 1px 1px #ccc;
+			height: 60px;
 		}
 		.logo{
 			flex-basis: 25%;
@@ -42,6 +44,25 @@
 			color: rgba(255,255,255,1);
 			font-weight: bold;
 		}
+		main{
+			height: calc(100vh - 90px);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		main div{
+			width: 50%;
+			text-align: center;
+		}
+		footer{
+			background-color: #222;
+			height: 30px;
+			text-align: center;
+			font-size: 10px;
+			color: #fff;
+			line-height: 3;
+		}
 	</style>
 </head>
 <body>
@@ -54,6 +75,14 @@
 			<li><a href="#">Product</a></li>
 		</nav>
 	</header>
-
+	<main>
+		<div>
+			<h2>Contenido de la Landing Page</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam magnam illum, quos tempore impedit consequatur dolorem deleniti officiis, itaque fugiat? Nesciunt, soluta non mollitia veniam eligendi rerum autem, magni similique!</p>
+		</div>
+	</main>
+	<footer>
+		este es el pinche footer
+	</footer>
 </body>
 </html>
